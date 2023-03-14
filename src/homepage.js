@@ -3,7 +3,7 @@ const content = document.querySelector("#content");
 function createHomepage() {
   content.innerHTML = "";
   const image = document.createElement("img");
-  image.src = "../restaurant-image.jpg";
+  image.src = "../dist/restaurant-image.jpg";
   image.alt = "Restaurant image";
   content.appendChild(image);
 
